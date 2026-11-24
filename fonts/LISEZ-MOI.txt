@@ -1,7 +1,0 @@
-Placer ici, au format woff2 :
-font-0.woff2 = Barlow Condensed italic 800
-font-1.woff2 = Barlow Condensed italic 900
-font-2.woff2 = Barlow Condensed normal 600
-font-3.woff2 = Barlow Condensed normal 700
-font-4.woff2 = Barlow Condensed normal 800
-font-5.woff2 = Inter variable 400-800 (latin)
