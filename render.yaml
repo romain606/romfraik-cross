@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: romfraik-cross
+    runtime: node
+    buildCommand: "echo 'No dependencies to install'"
+    startCommand: "node server.js"
+    envVars:
+      - key: ADMIN_PASSWORD
+        sync: false

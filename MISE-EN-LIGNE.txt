@@ -1,0 +1,18 @@
+ROMFRAIK CROSS — mise en ligne
+
+Le dossier contient le site et une configuration Render (render.yaml).
+
+Hébergement conseillé : Render Web Service
+1. Décompresse ce ZIP sur ton PC.
+2. Crée un compte sur https://render.com et connecte un dépôt GitHub.
+3. Dépose le contenu de ce dossier dans un nouveau dépôt GitHub.
+4. Dans Render, choisis New > Blueprint et sélectionne ce dépôt.
+5. Lors de la configuration, définis ADMIN_PASSWORD avec un mot de passe personnel long et unique.
+6. Une fois le déploiement terminé, Render fournit une adresse publique en .onrender.com.
+
+À savoir :
+- Le site et ses images sont inclus.
+- Le formulaire et l'interface /admin dépendent du serveur Node.js.
+- Les données enregistrées dans des fichiers locaux peuvent ne pas être conservées durablement après redéploiement/redémarrage sur un hébergement éphémère. Pour un usage réel, prévoir une base de données persistante.
+- Les polices personnalisées et les secondes photos des motos n'étaient pas présentes dans l'archive d'origine.
+- L'adresse publique sera indexable par Google, mais l'apparition dans les résultats n'est pas immédiate et n'est pas garantie.

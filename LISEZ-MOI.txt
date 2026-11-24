@@ -1,0 +1,22 @@
+ROMFRAIK CROSS — reconstruction du site d'origine
+
+Le site utilise EXACTEMENT ton code d'origine : assets/index-DiCR1H7C.js et assets/index-CXVecdna.css
+(pages, design, catalogue de 17 motos, comparateur, favoris, panier, formulaire).
+
+LANCER EN LOCAL (Windows)
+1. Installer Node.js (https://nodejs.org) si ce n'est pas déjà fait.
+2. Double-cliquer sur DEMARRER.bat -> le site s'ouvre sur http://localhost:3000
+   (ne PAS double-cliquer sur index.html : les liens du site sont de la forme /catalogue, il faut un serveur)
+
+METTRE EN LIGNE
+- Netlify / Cloudflare Pages : glisser le dossier (le fichier _redirects est inclus).
+- Vercel : vercel.json inclus.
+- Hébergeur Node : lancer "node server.js" (ADMIN_PASSWORD=... pour le mot de passe /admin).
+
+CE QUI MANQUE (non fourni dans tes fichiers)
+- fonts/ : polices Barlow Condensed (5 graisses) et Inter (font-0.woff2 ... font-5.woff2), voir fonts/LISEZ-MOI.txt.
+  Sans elles le navigateur utilise Arial : tout fonctionne, mais les titres sont moins "condensés".
+- images/*-2.webp : la 2e photo de chaque moto (le site s'affiche sans).
+- Le serveur d'origine (/api) : ici, les demandes du formulaire sont enregistrées dans data/messages.json
+  et lisibles sur /admin (mot de passe par défaut : changeme). La modification du catalogue depuis /admin n'est pas reconstruite.
+- Le favicon est refait d'après le logo (l'original n'a pas été fourni).
