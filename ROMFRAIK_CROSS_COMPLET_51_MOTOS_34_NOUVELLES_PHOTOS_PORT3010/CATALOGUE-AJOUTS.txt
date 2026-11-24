@@ -1,0 +1,2 @@
+Catalogue mis à jour : 17 motos initiales + 34 nouvelles entrées = 51 motos.
+Les fiches sont intégrées au même système de catalogue et de détail. Les champs marqués « À confirmer » ne sont pas des données constructeur vérifiées. Les nouvelles fiches utilisent temporairement une image générique ; elles ne prétendent pas représenter exactement chaque modèle.
